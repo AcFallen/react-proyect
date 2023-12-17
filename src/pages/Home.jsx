@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Reasons from '../components/Reasons'
+import BrandSupport from '../components/BrandSupport'
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
         </div>
       </section>
       <Reasons />
+      <BrandSupport />
     </>
 
 
