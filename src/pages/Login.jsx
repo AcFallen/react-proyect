@@ -1,5 +1,6 @@
 import { BsArrowLeftCircle } from "react-icons/bs";
 import { useNavigate } from "react-router-dom";
+import { Link } from 'react-router-dom'
 
 const Login = () => {
 
@@ -54,8 +55,8 @@ const Login = () => {
               Inicia sesión con Google
             </button>
             <div className="text-center text-gray-400">
-              ¿No tienes una cuenta? 
-              <span className="font-bold text-black"> Registrate gratis</span>
+              <p className="mb-2">¿No tienes una cuenta?</p>
+              <Link className="font-bold text-black underline" to='/register'>Registrate gratis</Link>
             </div>
           </form>
           
