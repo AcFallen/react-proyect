@@ -6,6 +6,8 @@ import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import Swal from 'sweetalert2'
 
+import { getUsers } from "../services/users";
+
 const Login = () => {
   const navigate = useNavigate();
 
@@ -25,13 +27,7 @@ const Login = () => {
 
     const {email, password} = form
 
-    const url = `http://localhost:3000/users?email=${email}&password=${password}`
-
-    const response = await fetch(url)
-
-    
-
-    const data = await response.json()
+    const data = await getUsers(email,password)
 
     console.log(data)
 
@@ -81,6 +77,7 @@ const Login = () => {
                 name="email"
                 id="email"
                 onChange={handleChange}
+                required
               />
             </div>
             <div className="py-4">
@@ -91,6 +88,7 @@ const Login = () => {
                 id="pass"
                 onChange={handleChange}
                 className="w-full p-2 border border-gray-300 rounded-md placeholder:font-light placeholder:text-gray-500"
+                required
               />
             </div>
             <div className="flex justify-center w-full py-4">

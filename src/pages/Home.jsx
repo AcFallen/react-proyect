@@ -6,6 +6,7 @@ import BrandSupport from '../components/BrandSupport'
 const Home = () => {
   return (
     <>
+    
       <section className="py-8 px-6 bg-slate-50 text-black">
         <div className="container mx-auto flex justify-between gap-10 items-center">
           <div className='flex flex-col gap-7'>

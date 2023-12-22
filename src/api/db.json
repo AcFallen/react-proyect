@@ -1,94 +1,130 @@
-  {
-    "users": [
-      {
-        "id": 1,
-        "name": "Roberto",
-        "surnames": "Apaza Cornejo",
-        "dni": 77206879,
-        "cellPhone": "947165975",
-        "email": "r@gmail.com",
-        "password": "123"
-      },
-      {
-        "id": "2",
-        "name": "Jane",
-        "surnames": "Smith",
-        "dni": "87654321",
-        "cellPhone": "123456789",
-        "email": "jane.smith@example.com",
-        "password": "janesmith456"
-      },
-      {
-        "id": "3",
-        "name": "Michael",
-        "surnames": "Johnson",
-        "dni": "54321678",
-        "cellPhone": "987654321",
-        "email": "michael.johnson@example.com",
-        "password": "mjohnson789"
-      },
-      {
-        "id": "4",
-        "name": "Emily",
-        "surnames": "Brown",
-        "dni": "87654321",
-        "cellPhone": "123456789",
-        "email": "emily.brown@example.com",
-        "password": "ebrown456"
-      },
-      {
-        "id": "5",
-        "name": "David",
-        "surnames": "Taylor",
-        "dni": "76543218",
-        "cellPhone": "987654321",
-        "email": "david.taylor@example.com",
-        "password": "dtaylor789"
-      },
-      {
-        "id": "6",
-        "name": "Olivia",
-        "surnames": "Miller",
-        "dni": "87654321",
-        "cellPhone": "123456789",
-        "email": "olivia.miller@example.com",
-        "password": "omiller456"
-      },
-      {
-        "id": "7",
-        "name": "Daniel",
-        "surnames": "Anderson",
-        "dni": "65432187",
-        "cellPhone": "987654321",
-        "email": "daniel.anderson@example.com",
-        "password": "danderson789"
-      },
-      {
-        "id": "8",
-        "name": "Sophia",
-        "surnames": "Wilson",
-        "dni": "87654321",
-        "cellPhone": "123456789",
-        "email": "sophia.wilson@example.com",
-        "password": "swilson456"
-      },
-      {
-        "id": "9",
-        "name": "Matthew",
-        "surnames": "Thomas",
-        "dni": "54321876",
-        "cellPhone": "987654321",
-        "email": "matthew.thomas@example.com",
-        "password": "mthomas789"
-      },
-      {
-        "id": "10",
-        "name": "Ava",
-        "surnames": "White",
-        "dni": "87654321",
-        "cellPhone": "123456789",
-        "email": "ava.white@example.com",
-        "password": "awhite456"
-      }
-    ]
-  }
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Roberto",
+      "surnames": "Apaza Cornejo",
+      "dni": 77206879,
+      "cellPhone": "947165975",
+      "email": "r@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": 2,
+      "name": "Jane",
+      "surnames": "Smith",
+      "dni": "87654321",
+      "cellPhone": "123456789",
+      "email": "jane.smith@example.com",
+      "password": "janesmith456"
+    },
+    {
+      "id": 3,
+      "name": "Michael",
+      "surnames": "Johnson",
+      "dni": "54321678",
+      "cellPhone": "987654321",
+      "email": "michael.johnson@example.com",
+      "password": "mjohnson789"
+    },
+    {
+      "id": 4,
+      "name": "Emily",
+      "surnames": "Brown",
+      "dni": "87654321",
+      "cellPhone": "123456789",
+      "email": "emily.brown@example.com",
+      "password": "ebrown456"
+    },
+    {
+      "id": 5,
+      "name": "David",
+      "surnames": "Taylor",
+      "dni": "76543218",
+      "cellPhone": "987654321",
+      "email": "david.taylor@example.com",
+      "password": "dtaylor789"
+    },
+    {
+      "id": 6,
+      "name": "Olivia",
+      "surnames": "Miller",
+      "dni": "87654321",
+      "cellPhone": "123456789",
+      "email": "olivia.miller@example.com",
+      "password": "omiller456"
+    },
+    {
+      "id": 7,
+      "name": "Daniel",
+      "surnames": "Anderson",
+      "dni": "65432187",
+      "cellPhone": "987654321",
+      "email": "daniel.anderson@example.com",
+      "password": "danderson789"
+    },
+    {
+      "id": 8,
+      "name": "Sophia",
+      "surnames": "Wilson",
+      "dni": "87654321",
+      "cellPhone": "123456789",
+      "email": "sophia.wilson@example.com",
+      "password": "swilson456"
+    },
+    {
+      "id": 9,
+      "name": "Matthew",
+      "surnames": "Thomas",
+      "dni": "54321876",
+      "cellPhone": "987654321",
+      "email": "matthew.thomas@example.com",
+      "password": "mthomas789"
+    },
+    {
+      "id": 10,
+      "name": "Ava",
+      "surnames": "White",
+      "dni": "87654321",
+      "cellPhone": "123456789",
+      "email": "ava.white@example.com",
+      "password": "awhite456"
+    },
+    {
+      "fullname": "Prueba",
+      "surnames": "asdasd",
+      "dni": "123",
+      "cellPhone": "123",
+      "email": "prueba@gmail.com",
+      "password": "1234",
+      "id": 11
+    },
+    {
+      "fullname": "Prueba2",
+      "surnames": "1234",
+      "dni": "1234",
+      "cellPhone": "1234",
+      "email": "prueba2@gmail.com",
+      "password": "asd",
+      "id": 12
+    },
+    {
+      "fullname": "Prueba3",
+      "surnames": "fany",
+      "dni": "123",
+      "cellPhone": "123",
+      "email": "f@gmail.com",
+      "password": "fa",
+      "id": 13
+    },
+    {
+      "fullname": "Prueba4",
+      "surnames": "jaja",
+      "dni": "1223",
+      "cellPhone": "7585",
+      "email": "prueba4@gmail.com",
+      "password": "qwe",
+      "id": 14
+    }
+  ]
+}
