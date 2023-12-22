@@ -2,7 +2,7 @@
   "users": [
     {
       "id": 1,
-      "name": "Roberto",
+      "fullname": "Roberto",
       "surnames": "Apaza Cornejo",
       "dni": 77206879,
       "cellPhone": "947165975",
@@ -11,7 +11,7 @@
     },
     {
       "id": 2,
-      "name": "Jane",
+      "fullname": "Jane",
       "surnames": "Smith",
       "dni": "87654321",
       "cellPhone": "123456789",
@@ -20,7 +20,7 @@
     },
     {
       "id": 3,
-      "name": "Michael",
+      "fullname": "Michael",
       "surnames": "Johnson",
       "dni": "54321678",
       "cellPhone": "987654321",
@@ -29,7 +29,7 @@
     },
     {
       "id": 4,
-      "name": "Emily",
+      "fullname": "Emily",
       "surnames": "Brown",
       "dni": "87654321",
       "cellPhone": "123456789",
@@ -38,7 +38,7 @@
     },
     {
       "id": 5,
-      "name": "David",
+      "fullname": "David",
       "surnames": "Taylor",
       "dni": "76543218",
       "cellPhone": "987654321",
@@ -47,7 +47,7 @@
     },
     {
       "id": 6,
-      "name": "Olivia",
+      "fullname": "Olivia",
       "surnames": "Miller",
       "dni": "87654321",
       "cellPhone": "123456789",
@@ -56,7 +56,7 @@
     },
     {
       "id": 7,
-      "name": "Daniel",
+      "fullname": "Daniel",
       "surnames": "Anderson",
       "dni": "65432187",
       "cellPhone": "987654321",
@@ -65,7 +65,7 @@
     },
     {
       "id": 8,
-      "name": "Sophia",
+      "fullname": "Sophia",
       "surnames": "Wilson",
       "dni": "87654321",
       "cellPhone": "123456789",
@@ -74,7 +74,7 @@
     },
     {
       "id": 9,
-      "name": "Matthew",
+      "fullname": "Matthew",
       "surnames": "Thomas",
       "dni": "54321876",
       "cellPhone": "987654321",
@@ -83,7 +83,7 @@
     },
     {
       "id": 10,
-      "name": "Ava",
+      "fullname": "Ava",
       "surnames": "White",
       "dni": "87654321",
       "cellPhone": "123456789",
@@ -125,6 +125,15 @@
       "email": "prueba4@gmail.com",
       "password": "qwe",
       "id": 14
+    },
+    {
+      "fullname": "prueba5",
+      "surnames": "abc",
+      "dni": "23123",
+      "cellPhone": "124213",
+      "email": "prueba5@gmail.com",
+      "password": "123",
+      "id": 15
     }
   ]
 }

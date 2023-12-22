@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import React from "react";
 
 import { BsArrowLeftCircle } from "react-icons/bs";
@@ -8,7 +8,12 @@ import Swal from 'sweetalert2'
 
 import { getUsers } from "../services/users";
 
+import { UserContext } from "../context/UserContext"
+
 const Login = () => {
+
+  const { storeUser } = useContext(UserContext)
+
   const navigate = useNavigate();
 
   const [form,setForm] = useState({
@@ -41,7 +46,7 @@ const Login = () => {
 
       delete clonedData.password
 
-      // storeUser(clonedData)
+      storeUser(clonedData)
 
       navigate('/')
     } else {
