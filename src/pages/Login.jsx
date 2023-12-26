@@ -48,7 +48,7 @@ const Login = () => {
 
       storeUser(clonedData)
 
-      navigate('/')
+      navigate('/products')
     } else {
       
       Swal.fire({

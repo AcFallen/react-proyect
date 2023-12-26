@@ -6,18 +6,14 @@ import { BsCart2 } from "react-icons/bs";
 import { UserContext } from "../context/UserContext";
 import { useContext } from "react";
 
+import { DropdownPerfil } from "./DropdownPerfil";
+
 const Header = () => {
   const { user, cleanUser } = useContext(UserContext);
 
-  const navigate = useNavigate();
-
-  const handleLogout = () => {
-    cleanUser();
-    navigate("/login");
-  };
   return (
     <>
-      <header className="py-8 px-6 bg-slate-50 text-black">
+      <header className="py-8 px-6 bg-slate-50 drop-shadow-lg ">
         <div className="container mx-auto flex justify-between">
           <h1 className="font-bold uppercase hover:text-violet-900 text-4xl">
             tech store
@@ -37,14 +33,8 @@ const Header = () => {
             </Link>
             {user?.email && (
               <>
-                <Link
-                  to="/editProfile"
-                  className="px-3 hover:text-violet-900 hover:border-violet-900 hover:underline"
-                >
-                  Editar Perfil
-                </Link>
-                <div className="font-bold">Welcome, {user.fullname}</div>
-                <button onClick={handleLogout}>Logout</button>
+                <DropdownPerfil></DropdownPerfil>
+                {/* <button onClick={handleLogout}>Logout</button> */}
               </>
             )}
 

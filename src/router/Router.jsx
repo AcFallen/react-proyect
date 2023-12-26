@@ -19,9 +19,10 @@ const Router = () => {
         <Routes>
           <Route path="/" element={<LayoutBase />}>
             <Route index element={<Home />} />
+            <Route path="/products" element={<Products />} />
             <Route element={<PrivateRoute />}>
               <Route path="/editProfile" element={<EditProfile />} />
-              <Route path="/products" element={<Products />} />
+              
             </Route>
           </Route>
 
