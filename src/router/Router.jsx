@@ -22,7 +22,6 @@ const Router = () => {
             <Route path="/products" element={<Products />} />
             <Route element={<PrivateRoute />}>
               <Route path="/editProfile" element={<EditProfile />} />
-              
             </Route>
           </Route>
 

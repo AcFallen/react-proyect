@@ -8,7 +8,7 @@ const LayoutBase = () => {
     <>
       <Header />
       <main>
-            <div>
+            <div className="bg-slate-50">
                 <Outlet />
             </div>
       </main>
